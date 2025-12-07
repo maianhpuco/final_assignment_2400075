@@ -1,0 +1,14 @@
+{
+  "name": "helloworld",
+  "version-string": "0.1.0",
+  "dependencies": [
+    { "name": "glfw3"},
+    { "name": "glm"},
+    { "name": "glew"},
+    { "name": "imgui"},
+    {
+      "name": "imgui",
+      "features": [ "glfw-binding", "opengl3-binding" ]
+    }
+  ]
+}
